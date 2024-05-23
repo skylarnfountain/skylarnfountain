@@ -1,16 +1,15 @@
-## Hi there 👋
+![SkylarFountain](https://github.com/skylarnfountain/skylarnfountain/assets/68071141/95c4090d-dbe1-448a-8985-63115b738b5e)
 
-<!--
-**skylarnfountain/skylarnfountain** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am passionate about UI/UX design and front-end development
 
-Here are some ideas to get you started:
+## About Me
+- 🏫 Graduated from Wichita State University in 2022 with a Bachelor's in Computer Science
+- 💻 When I am not working on my YA Fantasy novel, I focus on my author website
+- 🌱 I’m currently learning React and Material UI
+- 💡Fun fact: I love crafting and I hope to have a small business one day
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech I have worked with
+[![My Skills](https://skillicons.dev/icons?i=ts,js,html,css,aws,babel,cs,cpp,dotnet,git,github,react,materialui,mysql,nodejs,npm,powershell,postman,py,sass,vscode,wordpress,yarn)](https://skillicons.dev)
+
+## Connect
+[![text](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/skylar-fountain-104270148/)
