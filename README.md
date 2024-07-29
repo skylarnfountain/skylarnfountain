@@ -11,8 +11,18 @@ I have a passion for UI/UX design and front-end development, while also enjoying
 ## Tech I have worked with
 [![My Skills](https://skillicons.dev/icons?i=ts,js,html,css,aws,babel,cs,cpp,dotnet,git,github,react,materialui,mysql,nodejs,npm,powershell,postman,py,sass,vscode,wordpress,yarn)](https://skillicons.dev)
 
-## Current Projects
-Check out my author website here: https://drewdylanwrites.com/
+## Current Project
+### Author Website 🖋️
+Check it out here: https://drewdylanwrites.com/
+
+## Completed Projects
+### The Training Grounds 🏹
+Small, random projects
+https://skylarnfountain.github.io/training-grounds/
+
+### The Library 📖
+Technical documentation for various topics and concepts
+https://github.com/skylarnfountain/the-library
 
 ## Connect
 [![text](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/skylar-fountain-104270148/)
