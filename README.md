@@ -1,6 +1,6 @@
 ![SkylarFountain](https://github.com/skylarnfountain/skylarnfountain/assets/68071141/95c4090d-dbe1-448a-8985-63115b738b5e)
 
-I have a passion for UI/UX design and front-end development, while also enjoying full-stack projects
+I have a passion for UI/UX design, full-stack development, and technical writing
 
 ## About Me
 - 🏫 Graduated from Wichita State University in 2022 with a Bachelor's in Computer Science
