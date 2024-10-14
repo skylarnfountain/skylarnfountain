@@ -34,6 +34,40 @@
             margin: 0;
         }
 
+        .toc {
+            color: #4a4a8a;
+            margin: 20px 0;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .toc h2 {
+            margin: 0 0 10px 0;
+            color: #4a4a8a;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .toc li {
+            margin: 5px 0;
+        }
+
+        .toc a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
         .section-header {
             display: inline-block;
             background-color: #4a4a8a;
@@ -76,6 +110,20 @@
             line-height: 1.6;
         }
 
+        .project img {
+            max-width: 200px;
+            padding: 5px;
+            height: auto;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img:hover {
+            transform: scale(1.05);
+        }
+
+
         footer {
             text-align: center;
             padding: 20px;
@@ -104,7 +152,17 @@
     </header>
 
     <main>
-        <section class="container">
+        <section class="toc">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#docs">Technical Documentation Samples</a></li>
+                <li><a href="#coding">Coding Projects</a></li>
+                <li><a href="#cms">CMS Projects</a></li>
+                <li><a href="#graphics">Graphic Design Samples</a></li>
+            </ul>
+        </section>
+
+        <section class="container" id="docs">
             <header class="section-header">
                 <h2>Technical Documentation Samples</h2>
             </header>
@@ -118,7 +176,7 @@
                     target="_blank" class="project-header">View Documentation</a>
             </article>
             <article class="project">
-                <h3>1. Advice Slip API - SwaggerHub</h3>
+                <h3>2. Advice Slip API - SwaggerHub</h3>
                 <p><strong>Technologies:</strong> YAML</p>
                 <p><strong>Description:</strong> Swagger documentation for the Advice Slip API that allows users to experiment and test API calls directly within the interface.</p>
                 <a href="https://app.swaggerhub.com/apis-docs/SKYLARNFOUNTAIN/advice-generator/1.0.0" target="_blank"
@@ -126,7 +184,7 @@
             </article>
         </section>
 
-        <section class="container">
+        <section class="container" id="coding">
             <header class="section-header">
                 <h2>Coding Projects</h2>
             </header>
@@ -146,6 +204,90 @@
                     target="_blank">npm</a></p>
                 <p><strong>Description:</strong> Simple author website to showcase my YA fantasy writing.</p>
                 <a href="https://drewdylanwrites.com/" target="_blank" class="project-header">View Project</a>
+            </article>
+        </section>
+
+        <!-- New CMS Section -->
+        <section class="container" id="cms">
+            <header class="section-header">
+                <h2>CMS Projects</h2>
+            </header>
+            <article class="project">
+                <h3>1. Paper Dragon Literary Journal - Volume Five</h3>
+                <p><strong>Technologies:</strong> WordPress</p>
+                <p><strong>Description:</strong> Migrated and optimized content for Volume Five of the Paper Dragon Literary Journal.</p>
+                <a href="https://drexelpaperdragon.com/volume-5/" target="_blank" class="project-header">View Project</a>
+            </article>
+
+            <article class="project">
+                <h3>2. Web Developer - TRIO Student Support Services</h3>
+                <p><strong>Technologies:</strong> Modern Campus CMS, HTML, CSS, JavaScript</p>
+                <p><strong>Description:</strong> Created and maintained the official website for Wichita State's TRIO Student Support Services.</p>
+                <a href="https://www.wichita.edu/services/student_support/" target="_blank" class="project-header">View Project</a>
+            </article>
+
+            <article class="project">
+                <h3>3. Alpha Theta Chapter - Sigma Psi Zeta</h3>
+                <p><strong>Technologies:</strong> WordPress, Elementor</p>
+                <p><strong>Description:</strong> Created and maintained the official website for the Alpha Theta Chapter of Sigma Psi Zeta Sorority Inc.</p>
+            </article>
+        </section>
+
+        <!-- New Graphic Design Section -->
+        <section class="container" id="graphics">
+            <header class="section-header">
+                <h2>Graphic Design Samples</h2>
+            </header>
+
+            <article class="project">
+                <h3>1. Web Developer - TRIO Student Support Services</h3>
+                <p><strong>Tools:</strong> Canva</p>
+                <p><strong>Description:</strong> Created flyers and engaging social media graphics for announcements and promoting events for TRIO students.</p>
+                <a href="./images/academic_tutors.jpg" target="_blank">
+                    <img src="./images/academic_tutors.jpg" alt="Now Hiring Post">
+                </a>
+                <a href="./images/first_gen.jpg" target="_blank">
+                    <img src="./images/first_gen.jpg" alt="First Generation Post">
+                </a>
+                <a href="./images/grant_writing.jpg" target="_blank">
+                    <img src="./images/grant_writing.jpg" alt="Grant Writing Post">
+                </a>
+                <a href="./images/mental_health.jpg" target="_blank">
+                    <img src="./images/mental_health.jpg" alt="Mental Health Awareness Post">
+                </a>
+            </article>
+
+            <article class="project">
+                <h3>2. Sorority Newsletter & Graphics</h3>
+                <p><strong>Tools:</strong> Canva</p>
+                <p><strong>Description:</strong> Designed graphics and stickers for Sigma Psi Zeta Sorority, Inc.</p>
+                <a href="./images/holiday.png" target="_blank">
+                    <img src="./images/holiday.png" alt="Holiday">
+                </a>
+                <a href="./images/brochure.png" target="_blank">
+                    <img src="./images/brochure.png" alt="Brochuret">
+                </a>
+                <a href="./images/sticker_sheet.png" target="_blank">
+                    <img src="./images/sticker_sheet.png" alt="Sticker Sheet">
+                </a>
+                <a href="./images/sticker.png" target="_blank">
+                    <img src="./images/sticker.png" alt="Sticker">
+                </a>
+                <a href="./images/sept_newsletter.png" target="_blank">
+                    <img src="./images/sept_newsletter.png" alt="Newsletter Cover">
+                </a>
+            </article>
+
+            <article class="project">
+                <h3>3. Personal</h3>
+                <p><strong>Tools:</strong> Canva</p>
+                <p><strong>Description:</strong> Graphics I have created for personal use.</p>
+                <a href="./images/halloween.png" target="_blank">
+                    <img src="./images/halloween.png" alt="Halloween">
+                </a>
+                <a href="./images/thank_you.png" target="_blank">
+                    <img src="./images/thank_you.png" alt="Thank You Card">
+                </a>            
             </article>
         </section>
     </main>
