@@ -24,18 +24,38 @@
         }
 
         header {
-            background-color: #212138;
+            background-color: rgb(237, 233, 225);
             padding: 20px;
-            text-align: center;
-            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(111, 101, 87);
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            margin-right: 20px;
+        }
+
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         header h1 {
             margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2em;
         }
 
         .toc {
-            color: #4a4a8a;
+            color: rgb(111, 101, 87);
             margin: 20px 0;
             max-width: 1200px;
             margin: 20px auto;
@@ -46,7 +66,7 @@
 
         .toc h2 {
             margin: 0 0 10px 0;
-            color: #4a4a8a;
+            color: rgb(111, 101, 87);
         }
 
         .toc ul {
@@ -70,16 +90,16 @@
 
         .section-header {
             display: inline-block;
-            background-color: #4a4a8a;
-            color: white;
+            background-color: rgb(111, 101, 87);
+            color: rgb(83, 73, 54);
             padding: 10px;
             margin-top: 20px;
         }
 
         .project-header {
             display: inline-block;
-            background-color: #6565ad;
-            color: white;
+            background-color: rgb(237, 233, 225);
+            color: rgb(111, 101, 87);
             padding: 8px;
             margin-top: 5px;
         }
@@ -136,8 +156,11 @@
 
 <body>
     <header>
-        <h1>Skylar Fountain | Portfolio</h1>
-        <p>Developer & Writer</p>
+        <img src="./assets/professional.jpeg" alt="Skylar Fountain" style="border-radius: 50%; width: 150px;">
+        <div>
+            <h1>Skylar Fountain | Portfolio</h1>
+            <p>Developer & Writer</p>
+        </div>
     </header>
 
     <main>
